@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.tharaka.simplelogin.summary">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="250dp"
+            android:layout_height="166dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.733"
+            app:srcCompat="@drawable/log_splash" />
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView2"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginTop="14dp"
+            android:text="Total Amount in (LKR)"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:id="@+id/deci_total"
+            android:layout_width="260dp"
+            android:layout_height="80dp"
+            android:layout_alignStart="@+id/textView"
+            android:layout_below="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/btn_login"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_marginEnd="15dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+
+            <TextView
+                android:id="@+id/helloUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:text="Latitude Vs Longitude"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFCDECE5"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text=""
+                android:textColor="@color/cost" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+
+            <!--
+            <TextView
+                android:id="@+id/un"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/cost"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            -->
+
+            <!--
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Point"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+            -->
+            <TextView
+                android:id="@+id/tot"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/cost"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <!--
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="End Point"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+            -->
+
+            <TextView
+                android:id="@+id/dis"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/cost"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <!--
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amount in (LKR)"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+            -->
+
+            <TextView
+                android:id="@+id/cal"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/cost"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Distance between two points in Km"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/calTot"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/attempt"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <!--
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Cost"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+            -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="209dp" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+        </LinearLayout>

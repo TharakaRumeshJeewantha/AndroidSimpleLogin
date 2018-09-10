@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="btn_signup">#FF4DB72F</color>
+    <color name="btn_login">#FFE72930</color>
+    <color name="attempt">#FFFC0257</color>
+    <color name="white">#FFFDFDFD</color>
+    <color name="hint">#dac7f3</color>
+    <color name="cost">#FFA5F2E9</color>
+    <color name="new_hint">#FF9EDDF4</color>
+    <color name="text_shadow">#7F000000</color>
+</resources>

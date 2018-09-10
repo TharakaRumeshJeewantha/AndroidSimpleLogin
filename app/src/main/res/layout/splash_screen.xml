@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/bg">
+  <!--  tools:context="com.splash.ws.splash.Splash"> -->
+
+    <LinearLayout
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <ImageView
+          android:id="@+id/iv"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_gravity="center_vertical|center_horizontal|center"
+          android:src="@drawable/bklgo" />
+
+    </LinearLayout>
+  <!--
+  <TextView
+      android:id="@+id/tv"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_gravity="center_vertical|center_horizontal|center"
+      android:textColor="@color/white"
+      android:layout_marginTop="100dp"
+      android:layout_marginLeft="60dp"
+      android:text="Welcome To EZ Ride"
+      android:textSize="23sp"
+      android:textStyle="italic" />
+      -->
+</RelativeLayout>
